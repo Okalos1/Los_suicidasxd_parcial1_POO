@@ -7,6 +7,13 @@ public abstract class Empleado {
     protected ArrayList<Documento> Documentos = new ArrayList<>();
     protected double salario;
 
+    public Empleado (String nombre, String puesto, double salario){
+        this.nombre = nombre;
+        this.puesto = puesto;
+        this.salario = salario;
+
+    }
+
     public ArrayList<Documento> getDocumentos() {
         return Documentos;
     }
@@ -19,14 +26,7 @@ public abstract class Empleado {
         return nombre;
     }
 
-    public Empleado (String nombre, String puesto, double salario){
-        this.nombre = nombre;
-        this.puesto = puesto;
-        this.salario = salario;
 
-
-
-    }
 
     public void setSalario(double salario) {
         this.salario = salario;
@@ -34,13 +34,12 @@ public abstract class Empleado {
 
     public void addDocumento (Documento){
 
-        Documentos.add(Documento);
 
     }
 
     public void removeDocumento(String Doc){
 
-        Documentos.removeIf(Documento -> Documento.getNombre()==Doc);
+
 
 
     }

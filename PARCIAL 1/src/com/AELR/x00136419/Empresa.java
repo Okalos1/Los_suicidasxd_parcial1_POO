@@ -4,9 +4,10 @@ import java.util.ArrayList;
 
 public class Empresa {
     private String nombre;
-    private ArrayList<String> planilla = new ArrayList<String>();
+    private ArrayList<String> Planilla = new ArrayList<String>();
 
     public Empresa(String nombre){
+     this.nombre = nombre;
 
     }
 
@@ -15,6 +16,14 @@ public class Empresa {
     }
 
     public ArrayList<String> getPlanilla() {
-        return planilla;
+        return Planilla;
+    }
+
+    public void addEmpleado(Empleado){
+
+    }
+
+    public void quitEmpleado(String Empl){
+
     }
 }
