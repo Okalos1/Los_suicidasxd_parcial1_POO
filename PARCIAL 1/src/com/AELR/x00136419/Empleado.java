@@ -44,6 +44,9 @@ public abstract class Empleado {
 
     }
 
+    public double getSalario() {
+        return salario;
+    }
 }
 
 
