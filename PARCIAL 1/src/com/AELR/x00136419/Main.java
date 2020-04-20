@@ -33,7 +33,7 @@ public class Main {
                                 nombre=JOptionPane.showInputDialog(null, "Nombre:");
                                 puesto=JOptionPane.showInputDialog(null, "Puesto:");
                                 salario= Double.parseDouble(JOptionPane.showInputDialog(null, "Salario:"));
-                                extension= Integer.parseInt(JOptionPane.showInputDialog(null,"Meses de contrato:"));
+                                extension= Integer.parseInt(JOptionPane.showInputDialog(null,"Numero de extensión:"));
                                 Empresa.addEmpleado(new PlazaFija(nombre,puesto,salario,extension));
                                 break;
 
@@ -91,9 +91,6 @@ public class Main {
                         case 1:
 
                     }
-
-
-
 
 
             }
