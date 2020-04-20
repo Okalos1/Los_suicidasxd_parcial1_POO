@@ -32,14 +32,12 @@ public abstract class Empleado {
         this.salario = salario;
     }
 
-    public void addDocumento (Documento){
+    public void addDocumento (Documento Doc){
 
 
     }
 
-    public void removeDocumento(String Doc){
-
-
+    public void removeDocumento(String Doc) {
 
 
     }

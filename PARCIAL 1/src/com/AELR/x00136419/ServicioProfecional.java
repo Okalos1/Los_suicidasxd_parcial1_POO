@@ -7,7 +7,7 @@ public class ServicioProfecional extends Empleado {
 
 
     public ServicioProfecional(String Nombre, String Puesto, double Salario, int Meses_contrato){
-    super(nombre, puesto, salario);
+    super(Nombre, Puesto, Salario);
 
     this.Meses_contrato = Meses_contrato;
 
