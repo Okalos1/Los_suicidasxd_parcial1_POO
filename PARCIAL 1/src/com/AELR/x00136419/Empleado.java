@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public abstract class Empleado {
     protected String nombre, puesto;
-    protected ArrayList<Documento> Documentos = new ArrayList<>();
+    protected ArrayList<Documento> Documentos = new ArrayList();
     protected double salario;
 
     public Empleado (String nombre, String puesto, double salario){

@@ -1,12 +1,12 @@
 package com.AELR.x00136419;
 
-public class ServicioProfecional extends Empleado {
+public class ServicioProfesional extends Empleado {
 
     private int Meses_contrato;
 
 
 
-    public ServicioProfecional(String Nombre, String Puesto, double Salario, int Meses_contrato){
+    public ServicioProfesional(String Nombre, String Puesto, double Salario, int Meses_contrato){
     super(Nombre, Puesto, Salario);
 
     this.Meses_contrato = Meses_contrato;
