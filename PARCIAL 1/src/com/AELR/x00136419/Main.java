@@ -83,16 +83,24 @@ public class Main {
                         break;
 
                 case 4:
-                    byte opt1;
+                    /*byte opt1;
                     opt1= Byte.parseByte(JOptionPane.showInputDialog(null, TipoEmpleado()));
 
                     switch (opt1){
 
                         case 1:
 
+
+                    }*/
+                    for (Empleado Payment: Empresa.getPlanilla()) {
+                        JOptionPane.showMessageDialog(null, "Bienvenido "+ Payment.getNombre()+
+                                ", en la siguiente pagina se le dara detalle de su sueldo...");
+                        CalculadoraImpuestos.calcularPago(Payment);
                     }
-
-
+                    break;
+                case 5:
+                    JOptionPane.showMessageDialog(null, CalculadoraImpuestos.mostrarTotales());
+                    break;
             }
 
 

@@ -2,10 +2,12 @@ package com.AELR.x00136419;
 
 import javax.swing.*;
 
-public class CalculadoraImpuestos {
+public  class CalculadoraImpuestos {
 
 
     private static double RentaTotal, SeguroTotal, AfpTotal;
+
+
 
     private CalculadoraImpuestos() {
 
@@ -73,8 +75,9 @@ public class CalculadoraImpuestos {
             return  pago;
         }
 
-    }
-    public static String mostrarTotales(){
+
+         }
+    public  static String mostrarTotales(){
         String total= "El total de descuento por Renta es de: $"+ RentaTotal +" dolares. \n"+
                 "El total de descuento por AFP es de: $"+ AfpTotal +" dolares. \n"+
                 "El total de descuento por ISSS(Seguro Social) es de: $"+ SeguroTotal +" dolares.";
